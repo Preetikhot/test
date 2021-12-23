@@ -1,0 +1,181 @@
+{
+    "htmlquestions":[{
+        "questionText": "purpose of markup is to ",
+        "options":[{
+            "text":"add hypertext capability"
+        },
+        {
+            "text":"enhance the document"
+        },
+        {
+            "text":"both a & b ",
+            "correct": true
+        },
+        {
+            "text":"none of the above"
+        }
+     ]
+   },
+   {
+    "questionText": "there are ___ levels of headings in html? ",
+    "options":[{
+        "text":"1"
+    },
+    {
+        "text":"5"
+
+    },
+    {
+        "text":"6",
+        "correct": true
+    },
+    {
+        "text":"0"
+        
+    }
+ ]
+},
+
+{
+    "questionText": "Fundamental HTML Block is known as ___________. ",
+    "options":[{
+        "text":"HTML Body"
+    },
+    {
+        "text":"HTML tag",
+        "correct": true
+    },
+    {
+        "text":"html attribute "
+       
+    },
+    {
+        "text":"html element"
+    }
+ ]
+},
+{
+    "questionText": "The year in which HTML was first proposed _______. ",
+    "options":[{
+        "text":"1990",
+        "correct": true
+
+    },
+    {
+        "text":"1987"
+    },
+    {
+        "text":"1989 "
+    },
+    {
+        "text":"none of the above"
+    }
+ ]
+},
+{
+    "questionText": "html uses ",
+    "options":[{
+        "text":"User defined tags "
+    },
+    {
+        "text":"Pre-specified tags "
+    },
+    {
+        "text":" Fixed tags defined by the language",
+        "correct": true
+    },
+    {
+        "text":" Tags only for linking "
+    }
+ ]
+},
+{
+    "questionText": "HTML is what type of language ? ",
+    "options":[{
+        "text":" Scripting Language "
+    },
+    {
+        "text":" Markup Language ",
+        "correct": true
+    },
+    {
+        "text":"Programming Language "
+        
+    },
+    {
+        "text":" Network Protocol"
+    }
+ ]
+},
+{
+    "questionText": "Apart from <b> tag, what other tag makes text bold ? ",
+    "options":[{
+        "text":"<fat>  "
+    },
+    {
+        "text":" <strong> ",
+         "correct": true
+    },
+    {
+        "text":"<black> "
+    },
+    {
+        "text":"<emp> "
+    }
+ ]
+},
+{
+    "questionText": "What is the full form of HTML? ",
+    "options":[{
+        "text":" HyperText Markup Language ",
+        "correct": true
+    },
+    {
+        "text":" Hyper Teach Markup Language "
+    },
+    {
+        "text":"Hyper Tech Markup LanguageD.None of these"
+    },
+    {
+        "text":"none "
+    }
+ ]
+},
+{ 
+    "questionText": "What should be the first tag in any HTML document? ",
+    "options":[{
+        "text":"<head>  ",
+        "correct": true
+    },
+    {
+        "text":" <title> "
+    },
+    {
+        "text":"<html> ",
+        "correct": true
+    },
+    {
+        "text":"<document>"
+    }
+ ]
+},
+{ 
+    "questionText": "How can you make a bulleted list with numbers? ",
+    "options":[{
+        "text":"<dl>  "
+    },
+    {
+        "text":" <ol> ",
+        "correct": true
+    },
+    {
+        "text":"<list "
+    },
+    {
+        "text":"<ul> "
+    }
+ ]
+}
+   
+]
+}
