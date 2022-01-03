@@ -1,0 +1,24 @@
+
+
+mongodb
+
+1. insert 1 record into database.
+   > db.call_data.insert({id:1,source:"989879676",destination:"kkjhjkhjk",source_location:"ddhjhdj",
+     detination_location:"knjf",call_duration:2.88,roaming:"false",call_charge:4.88})
+
+   > db.call_data.find().count();
+     498
+	 
+2. check total number of call made from roaming.
+   
+	> db.call_data.find({"roaming":{$in:["true" ]}})
+	
+	> db.call_data.find({"roaming":{$in:["true" ]}}).count()
+      143
+	
+3. count of call with duration>10min.
+    	
+    > db.call_data.find({"call_duration":{$gt:10}}).count()
+      211 
+	 
+	 
