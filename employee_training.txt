@@ -1,0 +1,23 @@
+Employee Training Score Analysis
+
+
+1. I have imported the file employee_data.json file into the database.
+   by using following command:
+   >mongoimport --db practice_employee --collection employee_data < C:\employee_training_score_analysis\employee_data.json --jsonArray;
+   
+2. Find the number of employees who failed in term 1 (pass mark = 37)?
+   by using query:
+   > db.employee_data.find({term1: { $lt: 37 } } );
+
+3. Find the average score of employees for term 1. 
+   > db.employee_data.aggregate([{$group: { _id: "_id",avarage: { $avg: "$term1" } } }  ] );
+   
+    { "_id" : "_id", "avarage" : 49.813403645707005 }  
+
+4. Find employees who passed in all three terms
+   > db.employee_data.find({$and:[{term1:{$gt:36}},{term2:{$gt:36}},{term3:{$gt:36}}]})	
+	
+5.Find the average score of employees
+  > db.employee_data.aggregate({$project:{avg_emp:{$avg:["$term1","$term2","$term3"]}}});
+  
+  
